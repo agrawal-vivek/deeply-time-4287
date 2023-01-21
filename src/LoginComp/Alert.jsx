@@ -48,6 +48,7 @@ function TransitionExample( num) {
         <Button disabled={isAnonymous ? true : false} onClick={onOpen}>PROCEED</Button>
 
 
+
         <AlertDialog
           motionPreset='slideInBottom'
           leastDestructiveRef={cancelRef}
